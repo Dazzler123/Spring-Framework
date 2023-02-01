@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Web - Customer CRUD Form</title>
+    <meta content="Dasindu Bimlaka Hewagamage" name="author">
+    <meta content="Dasindu Bimlaka Hewagamage" name="owner">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #form_container {
+            margin-left: 1%;
+        }
+    </style>
+</head>
+<body>
+<main class="container-fluid row">
+    <!--spring logo-->
+    <div class="text-center col-4 mt-2">
+        <img src="assets/springio-ar21.png" class="w-50 mt-2" alt="spring_logo">
+    </div>
+    <!--form content-->
+    <div class="container row justify-content-around" id="form_container">
+        <form class="col-5 mt-4" id="customerForm">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="txtId" placeholder="Customer ID">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="txtName" placeholder="Customer Name">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="txtAddress" placeholder="Customer Address">
+            </div>
+            <div class="mb-3">
+                <input type="number" class="form-control" id="txtSalary" placeholder="Customer Salary">
+            </div>
+        </form>
+        <!--button grp-->
+        <div class="col-4 btn-group-vertical gap-2" role="group">
+            <button id="btnSave" type="button" class="btn btn-success rounded-3">SAVE</button>
+            <button id="btnUpdate" type="button" class="btn btn-warning rounded-3">UPDATE</button>
+            <button id="btnDelete" type="button" class="btn btn-danger rounded-3">DELETE</button>
+            <button id="btnLoadAll" type="button" class="btn btn-primary rounded-3">LOAD ALL</button>
+        </div>
+    </div>
+    <!--table-->
+    <div class="container-fluid col-11 mt-5 justify-content-center">
+        <table class="table table-bordered table-hover">
+            <thead class="bg-dark text-white text-center">
+            <tr>
+                <th>Customer ID</th>
+                <th>Customer Name</th>
+                <th>Customer Address</th>
+                <th>Customer Salary</th>
+            </tr>
+            </thead>
+            <tbody id="tblCustomer" class="font-monospace">
+            <!--            <tr>-->
+            <!--                <th>C001</th>-->
+            <!--                <th>Dasindu Hewagamage</th>-->
+            <!--                <th>Gampaha</th>-->
+            <!--                <th>150000.00</th>-->
+            <!--            </tr>-->
+            <!--            <tr>-->
+            <!--                <th>C001</th>-->
+            <!--                <th>Dasindu Hewagamage</th>-->
+            <!--                <th>Gampaha</th>-->
+            <!--                <th>150000.00</th>-->
+            <!--            </tr>-->
+            </tbody>
+        </table>
+    </div>
+</main>
+
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/jquery-3.6.1.min.js"></script>
+<script src="controller/CustomerFormController.js"></script>
+<script src="model/Customer.js"></script>
+
+<script>
+
+    // let baseURL = "http://localhost:8080/SpringWithMaven_war_exploded/";
+    //
+    // //Add customer to the database
+    // $("#btnSave").click(function () {
+    //
+    //     var formData = $("#customerForm").serialize();
+    //     // will generate a query String including form data
+    //
+    //     //send ajax request to the customer servlet
+    //     $.ajax({
+    //         url: baseURL + "customer",
+    //         method: "post",
+    //         data: formData,
+    //         dataType: "json",
+    //         success: function (res) {
+    //             alert(res.message);
+    //             loadAllCustomers();
+    //         },
+    //         error: function (error) {
+    //             var jsObject = JSON.parse(error.responseText);
+    //             alert(jsObject.message);
+    //         }
+    //     });
+    // });
+    // console.log(formData);
+
+
+
+</script>
+</body>
+</html>

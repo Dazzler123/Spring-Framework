@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Bean_Life_Cycle/Bean_Life_Cycle.iml" filepath="$PROJECT_DIR$/../Bean_Life_Cycle/Bean_Life_Cycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Configuration/Configuration.iml" filepath="$PROJECT_DIR$/Configuration/Configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Controllers/Controllers.iml" filepath="$PROJECT_DIR$/Controllers/Controllers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Dependency_Injection/Dependency_Injection.iml" filepath="$PROJECT_DIR$/../Dependency_Injection/Dependency_Injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Full_Mode_Vs_Light_Mode/Full_Mode_Vs_Light_Mode.iml" filepath="$PROJECT_DIR$/Full_Mode_Vs_Light_Mode/Full_Mode_Vs_Light_Mode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mapping_Spec/Mapping_Spec.iml" filepath="$PROJECT_DIR$/Mapping_Spec/Mapping_Spec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POS_Front-End.iml" filepath="$PROJECT_DIR$/POS_Front-End.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Environment/Spring_Environment.iml" filepath="$PROJECT_DIR$/Spring_Environment/Spring_Environment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_MVC/Spring_MVC.iml" filepath="$PROJECT_DIR$/Spring_MVC/Spring_MVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Web_Front_End.iml" filepath="$PROJECT_DIR$/Spring_Web_Front_End.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Web_MVC/Spring_Web_MVC.iml" filepath="$PROJECT_DIR$/Spring_Web_MVC/Spring_Web_MVC.iml" />
+    </modules>
+  </component>
+</project>

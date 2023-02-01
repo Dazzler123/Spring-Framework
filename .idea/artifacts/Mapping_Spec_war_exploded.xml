@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Mapping_Spec:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Mapping_Spec_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Mapping_Spec" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="spring-aop-5.3.9-javadoc" />
+          <element id="library" level="project" name="jackson-annotations-2.14.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Mapping_Spec/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Spring_Web_MVC:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spring_Web_MVC_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Spring_Web_MVC" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-web-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-orm-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-r2dbc-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-aspects-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-messaging-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-tx-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-websocket-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-expression-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-jms-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-context-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-oxm-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-context-indexer-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-webmvc-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-jcl-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-jdbc-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-beans-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-instrument-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-core-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-aop-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-webflux-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-context-support-5.3.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../Libraries/Spring Framework (Complete)/spring-test-5.3.9.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Spring_Web_MVC/web/Web" />
+    </root>
+  </artifact>
+</component>

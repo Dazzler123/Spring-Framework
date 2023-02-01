@@ -1,0 +1,15 @@
+package lk.ijse.spring.controller.service;
+
+import lk.ijse.spring.dto.ItemDTO;
+
+import java.util.ArrayList;
+
+public interface ItemService {
+    public void addItem(ItemDTO dto);
+
+    public void updateItem(ItemDTO dto);
+
+    public void deleteItem(String id);
+
+    public ArrayList<ItemDTO> getAllItems();
+}
